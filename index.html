@@ -28,7 +28,7 @@
               <a href="#" class="site-menu__a">Play online</a>  
             </li>
             <li class="site-menu__li">
-                <a href="#" class="site-menu__a">Play on site</a>
+                <a href="#" class="site-menu__a">Play on-site</a>
             </li>
             <li class="site-menu__li">
                 <a href="#" class="site-menu__a">The story</a>
@@ -44,7 +44,7 @@
       <!--hacker img mobile+desktop-->
         <figure class="hacker__figure">
             <picture>
-                <source media="(min-width: 481px)" srcset="/images/hacker-desktop.png">
+                <source media="(min-width: 600px)" srcset="/images/hacker-desktop.png">
                 <img class="hacker__img" src="/images/hacker-mobil.png" alt="a hacker in a room hacking">
             </picture>
         </figure>
@@ -55,42 +55,42 @@
             <!--doing quotes -->
             <ul class="custumer-quotes">
               <li class="custumer-quotes__li">
-                <div class="customer-quotes__div">
+                <article class="customer-quotes__article">
                   <picture class="custumer-quotes__picture">
-                    <source media="(min-width: 481px)" srcset="/images/reviewer-desktop.png">
+                    <source srcset="/images/reviewer-desktop.png" media="(min-width: 960px")>
                     <img class="custumer-quotes__img" src="/images/reviewer-mobil.png" alt="Picture of the reviewer">
                   </picture>
                   <blockquote class="customer-quotes__blockquote">
-                    <cite class="custumer quotes__cite">
+                    <cite class="custumer-quotes__cite">
                       This is a quote about how amazing this place is and how much fun me and my friends had when we tried it
                     </cite>
                     <p class="custumer-quotes__p">John Doe, visited us in September 2021</p>
                   </blockquote>
-                </div>
+                </article>
               </li>
 
               <li class="custumer-quotes__li">
-                <div class="customer-quotes__div">
+                <article class="customer-quotes__article">
                   <picture class="custumer-quotes__picture">
-                    <source media="(min-width: 481px)" srcset="/images/reviewer-desktop.png">
+                    <source srcset="/images/reviewer-desktop.png" media="(min-width: 960px")>
                     <img class="custumer-quotes__img" src="/images/reviewer-mobil.png" alt="Picture of the reviewer">
                   </picture>
                   <blockquote class="customer-quotes__blockquote">
-                    <cite class="custumer quotes__cite">
+                    <cite class="custumer-quotes__cite">
                       This is a quote about how amazing this place is and how much fun me and my friends had when we tried it
                     </cite>
                     <p class="custumer-quotes__p">John Doe, visited us in September 2021</p>
                   </blockquote>
-                </div>
+                </article>
               </li>
             </ul>
             <!--poppular challenges section-->
             <h2 class="popular-challenges">Popular challenges right now</h2>
-            <section class="poppular-rooms">
-              <ul class="poppular-rooms__ul">
+            <section class="popular-rooms">
+              <ul class="popular-rooms__ul">
                 <!--review section-->
-                <li class="poppular-rooms__li">
-                  <div class="rooms-card">
+                <li class="popular-rooms__li">
+                  <article class="rooms-card">
                     <img class="card-img" src="/images/hacker-mobil.png" alt="a hacker in a room hacking">
             
                     <div class="rooms-description">
@@ -118,11 +118,11 @@
                       </p>
                       <a class="rooms-description__a" href="#">Book this room</a>
                     </div>
-                  </div>
+                  </article>
                 </li>
                 
-                <li class="poppular-rooms__li">
-                  <div class="rooms-card">
+                <li class="popular-rooms__li">
+                  <article class="rooms-card">
                     <img class="card-img" src="/images/hacker-mobil.png" alt="a hacker in a room hacking">
             
                     <div class="rooms-description">
@@ -150,11 +150,11 @@
                       </p>
                       <a class="rooms-description__a" href="#">Book this room</a>
                     </div>
-                  </div>
+                  </article>
                 </li>
 
-                <li class="poppular-rooms__li">
-                  <div class="rooms-card">
+                <li class="popular-rooms__li">
+                  <article class="rooms-card">
                     <img class="card-img" src="/images/hacker-mobil.png" alt="a hacker in a room hacking">
             
                     <div class="rooms-description">
@@ -182,12 +182,12 @@
                       </p>
                       <a class="rooms-description__a" href="#">Book this room</a>
                     </div>
-                  </div>
+                  </article>
                 </li>
               </ul>
             </section>
 
-            <a class="on__site_challenges__top" href="#">On-site challenges</a>
+            <a class="on__site_challenges__bottom" href="#">On-site challenges</a>
             <a class="online__challenges__bottom" href="#">Online challenges</a>
 
         </section>
@@ -197,43 +197,45 @@
           Quodsi haberent magnalia inter potentiam et divitias, et non iliam 
           quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.  
           </p>
-          <a class="company-story__button" href="#">Read the full story</a>
+          <a class="company-story__a" href="#">Read the full story</a>
         </section>
+
         <!--rooms display-->
-        <section class="rooms display">
-          <source media="(min-width: 481px)" srcset="/images/twopers-desktop.png">
-          <img class="twopers-img" src="/images/twopers-mobil.png" alt="two persons looking at the screen">
-          <div class="display booking">
+        <section class="rooms-display"> 
+          <img class="display-img display-img__booking" src="/images/twopers-desktop.png" alt="two persons looking at the screen">
+
+          <article class="showcases display-booking">
             <h2 class="display-h2">Play with your friends or build your team stronger at work</h2>
             <p class="display__p">
               Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam.
               Nemo nocere tibi erit, et non inimicos, et
             </p>
             <a class="book-onsite__btn" href="#">Book on-site today</a>
-          </div>
+          </article>
 
-          <source media="(min-width: 481px") srcset="/image/onepers-desktop.png">
-          <img class="onepers-img" src="/images/onepers-mobil.png" alt="one person looking at the screen">
-          <div class="display-clallenges">
+          
+          <img class="display-img display-img__challenges" src="/images/onepers-desktop.png" alt="one person looking at the screen">
+          <article class="showcases display-challenges">
             <h2 class="display-h2">Play online or visit our venue for one of our 25 escape rooms</h2>
             <p class="display__p">
               Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam.
               Nemo nocere tibi erit, et non inimicos, et
             </p>
-          </div>
+            <a class="see-challenges__btn" href="#">See all challenges</a>
+          </article>
 
         </section>
   
     </main>
     <!--footer section-->
     <footer class="footer">
-      <div class="company-description">
+      <article class="company-description">
         <h2 class="company-description__h2">[Esc] Hacker Escape Rooms</h2>
         <p class="company-description__p">
-          Quodsi haberent mangalia inter potentiam et divitias, et non illam quidem haerc eo spectant haec
+          Quodsi haberent mangalia inter potentiam et divitias, et non illam quidem haec eo spectant haec
           quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.
         </p>
-      </div>
+      </article>
       <!--site map-->
       <nav class="site-map">
         <h2 class="site-map__h2">Site map</h2>
